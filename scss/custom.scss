@@ -35,13 +35,14 @@ $lightblue: #1b88c3;
             text-align: right;
             .tit {
                 display: inline;
-                background-color: $softPink;
+                // background-color: $softPink;
                 font-size: 2.5em;
                 padding-left: 4px;
                 padding-right: 4px;
+                background-color: #343a40;
             }
             .subtit {
-                margin-right: 24px;
+                margin-right: 13px;
                 font-size: 1.5em;
             }
         }
@@ -323,10 +324,13 @@ $lightblue: #1b88c3;
             text-align: justify;
         }
         .list {
-            margin-top: 20px;
+            margin-top: 40px;
             ul {
                 list-style-image: url(../imgs/bullet.png);
                 padding-left: 25px;
+                li {
+                    margin-bottom: 10px;
+                }
                 span {
                     position: relative;
                     top: -3px;
