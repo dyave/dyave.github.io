@@ -1,0 +1,573 @@
+
+$softPink: #facbcc;
+$pink: #C91F50;
+$darkBlue: #0F1039;
+$lightblue: #1b88c3;
+
+.home-page {
+    .landing {
+        background-image: url("../imgs/bg-main.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        .mynav {
+            padding-top: 20px;
+            .nav-item {
+                a {
+                    color: white;
+                    font-size: 18px;
+                }
+            }
+        }
+        .alieno {
+            text-align: center;
+            img {
+                position: absolute;
+                left: 50px;
+                top: 30px;
+            }
+        }
+        .slogan {
+            margin-top: 180px;
+        }
+        .titles {
+            color: white;
+            text-align: right;
+            .tit {
+                display: inline;
+                background-color: $softPink;
+                font-size: 2.5em;
+                padding-left: 4px;
+                padding-right: 4px;
+            }
+            .subtit {
+                margin-right: 24px;
+                font-size: 1.5em;
+            }
+        }
+        .wave1 {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .oltre {
+        .row-1 {
+            position: relative;
+        }
+        .bg-text {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            text-align: center;
+            .text {
+                display: inline;
+                background-color: $softPink;
+                color: white;
+                font-size: 3em;
+            }
+        }
+        .left {
+            .title {
+                color: $darkBlue;
+                display: inline;
+                background-color: $softPink;
+                font-size: 5em;
+            }
+            .line {
+                width: 80px;
+                height: 6px;
+                background-color: $pink;
+                border-radius: 10px;
+                margin-top: -6px;
+            }
+            .text {
+                margin-top: 20px;
+                text-align: justify;
+            }
+            .for-btn {
+                text-align: center;
+                margin-top: 20px;
+                button {
+                    width: 50%;
+                    background-color: $pink;
+                    border-radius: 20px;
+                    color: white;
+                }
+            }
+        }
+        .right {
+            padding-top: 30px;
+            .bubble {
+                color: white;
+                background-color: $pink;
+                padding: 20px;
+                border-radius: 30px;
+                -webkit-box-shadow: 0px 7px 0px 0px #0d0e33;
+                -moz-box-shadow: 0px 7px 0px 0px #0d0e33;
+                box-shadow: 0px 7px 0px 0px #0d0e33;
+            }
+            .arrow {
+                margin-top: -6px;
+                div {
+                    display: inline-block;
+                    width: 25%;
+                }
+            }
+            .alien {
+                text-align: center;
+                img {
+                    width: 50%;
+                }
+            }
+        }
+        .planet {
+            position: relative;
+            img {
+                width: 200px;
+                position: absolute;
+                left: -36px;
+                top: 70px;
+            }
+        }
+    }
+    .wave {
+        img {
+            width: 100%;
+        }
+    }
+    .sky {
+        background-image: url("../imgs/bg-main.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        .transbox {
+            padding: 30px;
+            background-color: rgba(27, 136, 195, 0.47);
+            height: 300px;
+            width: 90%;
+            border-radius: 40px;
+            margin: 24px auto;
+            .text {
+                text-align: center;
+                div {
+                    display: inline;
+                    background-color: $softPink;
+                    color: white;
+                    font-size: 3em;
+                }
+            }
+            .for-btn {
+                text-align: center;
+                margin-top: 20px;
+                button {
+                    width: 50%;
+                    background-color: $pink;
+                    border-radius: 20px;
+                    color: white;
+                }
+            }
+        }
+    }
+    .rocket {
+        .why-choose {
+            .title {
+                color: $darkBlue;
+                display: inline;
+                background-color: $softPink;
+                font-size: 3.2em;
+            }
+            .line {
+                width: 80px;
+                height: 6px;
+                background-color: $pink;
+                border-radius: 10px;
+                margin-top: 16px;
+                margin-bottom: 32px;
+            }
+            .subtitle {
+                display: inline;
+                background-color: $softPink;
+                font-size: 2.3em;
+            }
+            .text {
+                margin-top: 20px;
+                text-align: justify;
+            }
+            .list {
+                margin-top: 20px;
+                ul {
+                    list-style-image: url(../imgs/bullet.png);
+                    padding-left: 25px;
+                    span {
+                        position: relative;
+                        top: -3px;
+                    }
+                }
+            }
+            .endtitle {
+                display: inline;
+                background-color: $softPink;
+            }
+            .for-btn {
+                text-align: center;
+                margin-top: 34px;
+                button {
+                    width: 50%;
+                    background-color: $pink;
+                    border-radius: 20px;
+                    color: white;
+                }
+            }
+        }
+        .cloud-rocket {
+            padding-top: 30px;
+            img {
+                width: 120%;
+                position: relative;
+                left: -20%;
+            }
+        }
+    }
+    .over {
+        background-image: url("../imgs/bg-main.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        .transbox {
+            padding: 30px;
+            background-color: rgba(255, 255, 255, 0.31);
+            width: 90%;
+            border-radius: 40px;
+            margin: 24px auto;
+            .title {
+                color: $darkBlue;
+                display: inline;
+                background-color: $softPink;
+                font-size: 5em;
+            }
+            .line {
+                width: 80px;
+                height: 6px;
+                background-color: $pink;
+                border-radius: 10px;
+                margin-top: -6px;
+            }
+            .text {
+                margin-top: 20px;
+                text-align: justify;
+                color: white;
+            }
+            .subtitle {
+                display: inline;
+                background-color: $softPink;
+                font-size: 2.3em;
+                color: $darkBlue;
+            }
+            .list {
+                margin-top: 20px;
+                color: white;
+                ul {
+                    list-style-image: url(../imgs/bullet.png);
+                    padding-left: 25px;
+                    span {
+                        position: relative;
+                        top: -3px;
+                    }
+                }
+            }
+        }
+        .for-btn {
+            text-align: center;
+            margin-top: 20px;
+            button {
+                width: 50%;
+                background-color: $pink;
+                border-radius: 20px;
+                color: white;
+            }
+        }
+        .sw {
+            text-align: center;
+            .vertical {
+                display: table;
+                height: 100%;
+                .inner {
+                    display: table-cell;
+                    vertical-align: middle;
+                    img {
+                        width: 80%;
+                        margin-top: 40px;
+                        margin-bottom: 40px;
+                    }
+                }
+            }
+        }
+    }
+    .partner {
+        overflow-x: hidden;
+        .title {
+            color: $darkBlue;
+            display: inline;
+            background-color: $softPink;
+            font-size: 3.2em;
+        }
+        .subtitle {
+            display: inline;
+            background-color: $softPink;
+            font-size: 2.3em;
+        }
+        .text {
+            margin-top: 20px;
+            text-align: justify;
+        }
+        .list {
+            margin-top: 20px;
+            ul {
+                list-style-image: url(../imgs/bullet.png);
+                padding-left: 25px;
+                span {
+                    position: relative;
+                    top: -3px;
+                }
+            }
+        }
+        .for-btn {
+            text-align: center;
+            margin-top: 20px;
+            button {
+                width: 50%;
+                background-color: $pink;
+                border-radius: 20px;
+                color: white;
+            }
+        }
+        .rocket-man {
+            text-align: center;
+            .vertical {
+                display: table;
+                height: 100%;
+                .inner {
+                    display: table-cell;
+                    vertical-align: middle;
+                    img {
+                        width: 150%;
+                        margin-top: 40px;
+                        margin-bottom: 40px;
+                        position: relative;
+                        left: -15%;
+                    }
+                }
+            }
+        }
+    }
+    .contact {
+        background-color: $lightblue;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        .line {
+            width: 80px;
+            height: 6px;
+            background-color: $pink;
+            border-radius: 10px;
+            margin-top: 20px;
+            margin-bottom: 50px;
+        }
+        .subtitle {
+            display: inline;
+            background-color: $softPink;
+            font-size: 2.3em;
+            color: $darkBlue;
+        }
+        .for-btn {
+            text-align: center;
+            margin-top: 34px;
+            button {
+                width: 50%;
+                background-color: $pink;
+                border-radius: 20px;
+                color: white;
+            }
+        }
+        .info {
+            .for-icon {
+                display: inline-block;
+                width: 45px;
+                vertical-align: top;
+                img {
+                    width: 30px;
+                    &.pin {
+                        width: 25px;
+                        margin-top: 4px;
+                    }
+                }
+            }
+            .item {
+                color: white;
+                margin-bottom: 20px;
+            }
+            .map {
+                .address {
+                    display: inline-block;
+                }
+            }
+        }
+        .white-line {
+            width: 280px;
+            height: 2px;
+            background-color: white;
+            border-radius: 10px;
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+        .socialnet {
+            img {
+                width: 36px;
+                margin-right: 10px;
+            }
+            .fb {
+                margin-top: -1px;
+            }
+        }
+        .information {
+            padding-top: 30px;
+        }
+        .contact-us {
+            padding-top: 30px;
+            form {
+                margin-top: 20px;
+            }
+            .form-control {
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .footer {
+        background-color: $darkBlue;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        .alieno {
+            text-align: center;
+        }
+        .smtitle {
+            margin-bottom: 40px;
+            div {
+                color: white;
+                display: inline;
+                background-color: $softPink;
+                font-size: 0.9em;
+                padding-left: 4px;
+                padding-right: 4px;
+            }
+        }
+        .for-icon {
+            display: inline-block;
+            width: 35px;
+            vertical-align: top;
+            img {
+                width: 30px;
+                &.pin {
+                    width: 25px;
+                    margin-top: 4px;
+                }
+            }
+        }
+        .address {
+            display: inline-block;
+            color: white;
+            font-size: 0.9em;
+        }
+        .txt {
+            color: white;
+            font-size: 0.9em;
+            div {
+                overflow-wrap: break-word;
+            }
+        }
+        .socialnet {
+            img {
+                width: 36px;
+                margin-right: 10px;
+            }
+            .fb {
+                margin-top: -1px;
+            }
+        }
+        .item {
+            padding-bottom: 20px;
+        }
+        .white-line {
+            width: 100%;
+            height: 2px;
+            background-color: white;
+            border-radius: 10px;
+        }
+    }
+    .black-footer {
+        background-color: black;
+        color: white;
+        text-align: justify;
+        font-size: 0.9em;
+        padding-bottom: 60px;
+    }
+    .btn-scroll {
+        button {
+            width: 55px;
+            height: 55px;
+            background-color: #1b88c3;
+            border-radius: 10px;
+            color: white;
+            background-image: url(../imgs/arror-up.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            position: fixed;
+            bottom: 40px;
+            right: 40px;
+        }
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .home-page .oltre .bg-text {
+        display: none;
+    }
+    .home-page .oltre .planet img{
+        left: 0;
+        top: 10px;
+        width: 100px;
+    }
+    .home-page .rocket .cloud-rocket img {
+        width: 100%;
+        position: static;
+    }
+    .home-page .partner .rocket-man .vertical .inner img {
+        width: 130%;
+        left: 0;
+    }
+    .home-page .footer .smtitle {
+        margin-bottom: 10px;
+    }
+    .home-page .footer .item {
+        text-align: center;
+    }
+    .home-page .footer .white-line {
+        display: none;
+    }
+
+    .home-page .landing .alieno img {
+        position: static;
+    }
+    .home-page .landing .slogan {
+        margin-top: 90px;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .home-page .landing .mynav2 {
+        display: none;
+    }
+}
